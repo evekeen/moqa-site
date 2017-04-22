@@ -1,0 +1,8 @@
+baseurl = "http://moqa.mobi/"
+title = "moqa"
+languageCode = "en-us"
+publishDir = "docs"
+theme = "hyde"
+[params]
+  themeColor = "theme-base-0d"
+  disqusShortname = "spf13"

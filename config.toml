@@ -4,5 +4,5 @@ languageCode = "en-us"
 publishDir = "docs"
 theme = "hyde"
 [params]
-  themeColor = "theme-base-0d"
+  themeColor = "theme-base-0c"
   disqusShortname = "spf13"

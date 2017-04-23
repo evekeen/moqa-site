@@ -17,3 +17,5 @@ With Moqa you can:
 * Run your tests quickly. Just slide it!
 * Add Comments to you executions
 * Check the progress of your team on the way.
+
+<a href="https://itunes.apple.com/us/app/moqa/id1228058085?mt=8" style="display:inline-block;overflow:hidden;background:url(//linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg) no-repeat;width:135px;height:40px;background-size:contain;"></a>

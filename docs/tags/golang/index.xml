@@ -2,21 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Golang on moqa</title>
-    <link>http://moqa.mobi/tags/golang/</link>
+    <link>http://localhost:1313/tags/golang/</link>
     <description>Recent content in Golang on moqa</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Copyright (c) 2017 - 2016, Testhetics; all rights reserved.</copyright>
     <lastBuildDate>Sat, 22 Apr 2017 17:37:41 +0300</lastBuildDate>
     
-	<atom:link href="http://moqa.mobi/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>moqa</title>
-      <link>http://moqa.mobi/main/</link>
+      <link>http://localhost:1313/main/</link>
       <pubDate>Sat, 22 Apr 2017 17:37:41 +0300</pubDate>
       
-      <guid>http://moqa.mobi/main/</guid>
+      <guid>http://localhost:1313/main/</guid>
       <description>Moqa gives your Test Team perspective over all your tests created in Structure.Testy plugin for JIRA.
 Your mobile buddy will help you to get tests done quickly. Do not need special monitor for test execution anymore! Run tests from your pocket.
 With Moqa you can:

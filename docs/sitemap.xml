@@ -2,48 +2,79 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://moqa.mobi/main/</loc>
+    <loc>http://localhost:1313/blog/2017/04/26/first-version-available/</loc>
+    <lastmod>2017-04-26T13:50:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/main/</loc>
     <lastmod>2017-04-22T17:37:41+03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://moqa.mobi/categories/</loc>
+    <loc>http://localhost:1313/blog/</loc>
+    <lastmod>2017-04-26T13:50:46+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://moqa.mobi/tags/development/</loc>
-    <lastmod>2017-04-22T17:37:41+03:00</lastmod>
+    <loc>http://localhost:1313/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://moqa.mobi/categories/development/</loc>
-    <lastmod>2017-04-22T17:37:41+03:00</lastmod>
-    <priority>0</priority>
+    <loc>http://localhost:1313/contact/</loc>
   </url>
   
   <url>
-    <loc>http://moqa.mobi/tags/golang/</loc>
-    <lastmod>2017-04-22T17:37:41+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://moqa.mobi/categories/golang/</loc>
-    <lastmod>2017-04-22T17:37:41+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://moqa.mobi/tags/</loc>
+    <loc>http://localhost:1313/tags/development/</loc>
     <lastmod>2017-04-22T17:37:41+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://moqa.mobi/</loc>
+    <loc>http://localhost:1313/categories/development/</loc>
     <lastmod>2017-04-22T17:37:41+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/faq/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/golang/</loc>
+    <lastmod>2017-04-22T17:37:41+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/golang/</loc>
+    <lastmod>2017-04-22T17:37:41+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/starting/</loc>
+    <lastmod>2017-04-26T13:50:46+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2017-04-22T17:37:41+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/theme/</loc>
+    <lastmod>2017-04-26T13:50:46+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2017-04-26T13:50:46+02:00</lastmod>
     <priority>0</priority>
   </url>
   

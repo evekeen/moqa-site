@@ -1,0 +1,5 @@
+weight: 3
+name: "Overview"
+icon: "fa fa-pie-chart"
+description: "Check the progress of your team on the way."
+image: "img/gif/overview.gif"

@@ -1,0 +1,109 @@
+#all .moqa-head {
+  position: relative;
+  width: 926px;
+  height: 380px;
+  background: url('../img/header.png') center center repeat;
+  background-size: cover;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  left: 0;
+  color: white;
+}
+
+.moqa-description {
+  font-size: 18px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+  width: 50%;
+  left: -50%;
+  margin-left: 225px;
+}
+
+.moqa-logo {
+  font-family: "SF Grandezza";
+  font-weight: lighter;
+  font-size: 92px;
+  color: white;
+  margin-top: 50px;
+}
+
+.moqa-logo-nav {
+  height: 46px;
+}
+
+#all {
+  width: 926px;
+  margin-left: -400px;
+  text-align: center;
+  position: relative;
+  left: 50%;
+}
+
+body {
+  background-color: #eee;
+}
+
+.home-carousel-moqa .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#all .container {
+  width: 926px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.navbar-affixed-top.affix {
+  width: auto;
+}
+
+#footer {
+  background-color: #465685;
+}
+
+.moqa-app-links {
+  display: inline-block;
+}
+
+.moqa-contacts {
+  color: #eee;
+  margin-top: 12px;
+}
+
+.icon > .fa {
+  margin-left: 3px;
+  margin-top: 18px;
+  font-size: 40px;
+}
+
+a, a:hover, a:active, a:visited {
+  color: #92beef;
+}
+
+.moqa-screen-gif {
+  top: 82px;
+  left: -2px;
+  position: relative;
+}
+
+.moqa-screen-gif-container {
+  background: url('../img/iphone524.png') center center repeat;
+  background-size: cover;
+  width: 404px;
+  height: 741px;
+}
+
+.moqa-feature-desc {
+  top: 250px;
+}
+
+.navbar>.container .navbar-brand.home {
+  margin-left: 50px;
+}

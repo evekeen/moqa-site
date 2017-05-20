@@ -1,0 +1,5 @@
+weight: 1
+name: "Speed"
+icon: "fa fa-clock-o"
+description: "Run your tests quickly. Just slide it!"
+image: "img/gif/speed.gif"

@@ -41,6 +41,7 @@
   text-align: center;
   position: relative;
   left: 50%;
+  background-color: white;
 }
 
 body {
@@ -106,4 +107,8 @@ a, a:hover, a:active, a:visited {
 
 .navbar>.container .navbar-brand.home {
   margin-left: 50px;
+}
+
+#all #contact {
+  padding-bottom: 50px;
 }

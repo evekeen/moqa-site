@@ -1,4 +1,4 @@
-baseurl = "http://localhost:1313/"
+baseurl = "http://moqa.mobi/"
 title = "moqa"
 languageCode = "en-us"
 publishDir = "docs"

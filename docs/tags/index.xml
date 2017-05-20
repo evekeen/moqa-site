@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on moqa</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>http://moqa.mobi/tags/</link>
     <description>Recent content in Tags on moqa</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2017 - 2016, Testhetics; all rights reserved.</copyright>
     <lastBuildDate>Sat, 22 Apr 2017 17:37:41 +0300</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://moqa.mobi/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Development</title>
-      <link>http://localhost:1313/tags/development/</link>
+      <link>http://moqa.mobi/tags/development/</link>
       <pubDate>Sat, 22 Apr 2017 17:37:41 +0300</pubDate>
       
-      <guid>http://localhost:1313/tags/development/</guid>
+      <guid>http://moqa.mobi/tags/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Golang</title>
-      <link>http://localhost:1313/tags/golang/</link>
+      <link>http://moqa.mobi/tags/golang/</link>
       <pubDate>Sat, 22 Apr 2017 17:37:41 +0300</pubDate>
       
-      <guid>http://localhost:1313/tags/golang/</guid>
+      <guid>http://moqa.mobi/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Theme</title>
-      <link>http://localhost:1313/tags/theme/</link>
+      <link>http://moqa.mobi/tags/theme/</link>
       <pubDate>Wed, 26 Apr 2017 13:50:46 +0200</pubDate>
       
-      <guid>http://localhost:1313/tags/theme/</guid>
+      <guid>http://moqa.mobi/tags/theme/</guid>
       <description></description>
     </item>
     

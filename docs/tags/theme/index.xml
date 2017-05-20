@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Theme on moqa</title>
-    <link>http://localhost:1313/tags/theme/</link>
+    <link>http://moqa.mobi/tags/theme/</link>
     <description>Recent content in Theme on moqa</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2017 - 2016, Testhetics; all rights reserved.</copyright>
     <lastBuildDate>Wed, 26 Apr 2017 13:50:46 +0200</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/theme/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://moqa.mobi/tags/theme/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>First version available</title>
-      <link>http://localhost:1313/blog/2017/04/26/first-version-available/</link>
+      <link>http://moqa.mobi/blog/2017/04/26/first-version-available/</link>
       <pubDate>Wed, 26 Apr 2017 13:50:46 +0200</pubDate>
       
-      <guid>http://localhost:1313/blog/2017/04/26/first-version-available/</guid>
+      <guid>http://moqa.mobi/blog/2017/04/26/first-version-available/</guid>
       <description>The first version of the application is available on the AppStore. It already supports integration with all feature of Structure.Testy.</description>
     </item>
     

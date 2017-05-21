@@ -30,7 +30,7 @@ theme = "hugo-universal-theme"
 [params]
     viewMorePostLink = "/blog/"
     author = "Testhetics"
-    defaultKeywords = ["moqa", "testy", "structure", "testing", "test", "structure.testy", "jira", "testrail", "kanoah"]
+    defaultKeywords = ["moqa", "testy", "structure", "testing", "test", "structure.testy", "jira", "testrail", "kanoah", "adaptivist"]
     defaultDescription = "moqa - mobile testing workspace"
     description = "moqa - mobile testing workspace"
 

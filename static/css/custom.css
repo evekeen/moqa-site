@@ -1,16 +1,15 @@
 #all .moqa-head {
   position: relative;
-  width: 926px;
   height: 380px;
   background: url('../img/header.png') center center repeat;
   background-size: cover;
   text-align: center;
-  padding-left: 0;
-  padding-right: 0;
+  color: white;
+}
+
+.moqa-header {
   margin-left: 0;
   margin-right: 0;
-  left: 0;
-  color: white;
 }
 
 .moqa-description {
@@ -18,9 +17,8 @@
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
   letter-spacing: 2px;
-  width: 50%;
-  left: -50%;
-  margin-left: 225px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .moqa-logo {
@@ -36,29 +34,11 @@
 }
 
 #all {
-  width: 926px;
-  margin-left: -400px;
   text-align: center;
-  position: relative;
-  left: 50%;
-  background-color: white;
 }
 
 body {
   background-color: #eee;
-}
-
-.home-carousel-moqa .row {
-  margin-left: 0;
-  margin-right: 0;
-}
-
-#all .container {
-  width: 926px;
-  padding-left: 0;
-  padding-right: 0;
-  margin-left: 0;
-  margin-right: 0;
 }
 
 .navbar-affixed-top.affix {
@@ -67,6 +47,7 @@ body {
 
 #footer {
   background-color: #465685;
+  min-height: 150px;
 }
 
 .moqa-app-links {
@@ -78,7 +59,7 @@ body {
   margin-top: 12px;
 }
 
-.icon > .fa {
+.moqa-feature-icon > .fa {
   margin-left: 3px;
   margin-top: 18px;
   font-size: 40px;
@@ -101,8 +82,17 @@ a, a:hover, a:active, a:visited {
   height: 741px;
 }
 
+.moqa-features {
+  padding-top: 50px;
+  background-color: white;
+}
+
 .moqa-feature-desc {
-  top: 250px;
+  /*top: 250px;*/
+}
+
+.moqa-feature-desc .moqa-feature-icon {
+  color: #92beef;
 }
 
 .navbar > .container .navbar-brand.home {
@@ -121,6 +111,7 @@ a, a:hover, a:active, a:visited {
   text-transform: uppercase;
   font-size: 34px;
   margin-bottom: 40px;
+  max-height: 100px;
 }
 
 .moqa-supported-systems {
@@ -129,6 +120,7 @@ a, a:hover, a:active, a:visited {
 }
 
 .moqa-coming-soon {
+  background-color: white;
   padding: 60px;
 }
 

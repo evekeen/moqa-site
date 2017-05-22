@@ -5,7 +5,8 @@ $(function() {
 
 function updateSize() {
   var width = $(window).width();
-  $('.moqa-nav-container').width(width);
+  var contentWidth = $('.moqa-header').width();
+  $('.moqa-nav-container').width(contentWidth);
   var row$ = $('.moqa-feature-commenting');
   var gif$ = row$.find('.moqa-screen-gif-container-parent');
   var desc$ = row$.find('.moqa-feature-desc');

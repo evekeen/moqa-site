@@ -27,31 +27,7 @@
   </url>
   
   <url>
-    <loc>http://moqa.mobi/tags/development/</loc>
-    <lastmod>2017-04-22T17:37:41+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://moqa.mobi/categories/development/</loc>
-    <lastmod>2017-04-22T17:37:41+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://moqa.mobi/faq/</loc>
-  </url>
-  
-  <url>
-    <loc>http://moqa.mobi/tags/golang/</loc>
-    <lastmod>2017-04-22T17:37:41+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://moqa.mobi/categories/golang/</loc>
-    <lastmod>2017-04-22T17:37:41+03:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -62,7 +38,6 @@
   
   <url>
     <loc>http://moqa.mobi/tags/</loc>
-    <lastmod>2017-04-22T17:37:41+03:00</lastmod>
     <priority>0</priority>
   </url>
   

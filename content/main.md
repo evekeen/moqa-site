@@ -1,7 +1,7 @@
 +++
-Categories = ["Development","GoLang"]
+Categories = []
 Description = ""
-Tags = ["Development","golang"]
+Tags = []
 date = "2017-04-22T17:37:41+03:00"
 menu = "moqa"
 title = "moqa"

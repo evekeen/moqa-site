@@ -59,6 +59,10 @@ body {
   margin-top: 12px;
 }
 
+.moqa-big .moqa-feature-desc-container {
+  margin-top: 200px;
+}
+
 .moqa-feature-icon > .fa {
   margin-left: 3px;
   margin-top: 18px;
@@ -80,6 +84,7 @@ a, a:hover, a:active, a:visited {
   background-size: cover;
   width: 404px;
   height: 741px;
+  margin: 0 auto;
 }
 
 .moqa-features {
@@ -89,6 +94,10 @@ a, a:hover, a:active, a:visited {
 
 .moqa-feature-desc {
   /*top: 250px;*/
+}
+
+.moqa-features .moqa-header-text{
+  margin-bottom: 100px;
 }
 
 .moqa-feature-desc .moqa-feature-icon {

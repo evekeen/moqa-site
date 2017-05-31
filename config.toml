@@ -3,6 +3,7 @@ title = "moqa"
 languageCode = "en-us"
 publishDir = "docs"
 theme = "hugo-universal-theme"
+googleAnalytics = "UA-98095256-1"
 
 [menu]
 
@@ -22,7 +23,6 @@ theme = "hugo-universal-theme"
 #    url  = "/faq/"
 #    weight = 3
 #
-googleAnalytics = "UA-98095256-1"
 
 [[menu.main]]
     name = "Contact"

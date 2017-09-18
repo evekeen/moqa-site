@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{{ partial "head.html" . }}
+
+<body>
+
+<div id="all" class="row">
+  <div class="hidden-xs col-sm-2">&nbsp;</div>
+  <div class="col-xs-12 col-sm-8 moqa-main-column">
+
+    <header>
+      {{ partial "nav.html" . }}
+    </header>
+    {{ partial "breadcrumbs.html" . }}
+
+    <div class="moqa-usecases-title">
+      {{.Content}}
+    </div>
+
+    <div class="moqa-usecases-list">
+      <!-- Ranges through content/post/*.md -->
+      {{ range $index, $element := sort .Site.Data.who "weight"}}
+      <div class="row moqa-usecase-row">
+        {{ if eq (mod $index 2) 1 }}
+        <div class="col-sm-6 col-md-8 moqa-usecase-text">
+          <div>
+            <p>{{ $element.text | markdownify }}</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 moqa-usecase-image">
+          <img src="/img/who/{{ $element.name }}.png"/>
+        </div>
+        {{ else }}
+        <div class="col-sm-6 col-md-4 moqa-usecase-image">
+          <img src="/img/who/{{ $element.name }}.png"/>
+        </div>
+        <div class="col-sm-6 col-md-8 moqa-usecase-text">
+          <div>
+            <p>{{ $element.text | markdownify }}</p>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+
+    <div class="moqa-usecases-footer">
+      <p>We want to get to know you better!</p>
+      <p>Tell us your moqa-story right <a href="/contact">now</a></p>
+    </div>
+
+    {{ partial "footer.html" . }}
+
+  </div>
+  <div class="hidden-xs col-sm-2">&nbsp;</div>
+
+</div>
+<!-- /#all -->
+
+{{ partial "scripts.html" . }}
+
+</body>
+</html>

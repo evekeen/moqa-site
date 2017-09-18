@@ -140,3 +140,76 @@ a, a:hover, a:active, a:visited {
 .moqa-kanoah a:hover, .moqa-kanoah a:active, .moqa-kanoah a:visited, .moqa-kanoah a:focus {
   text-decoration: none;
 }
+
+.moqa-usecases-title {
+  background-color: #fff;
+  padding: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.moqa-usecases-title h4 {
+  font-size: 16px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.moqa-usecases-list {
+  background-color: #fff;
+}
+
+.moqa-usecase-row img {
+  width: 200px;
+}
+
+.moqa-usecase-image {
+  text-align: center;
+}
+
+.moqa-usecase-text {
+  margin-top: 25px;
+}
+
+.moqa-usecase-row {
+  padding: 15px;
+  margin-left: 0;
+  margin-right: 0;
+  border-top: 2px solid gray;
+  text-align: justify;
+}
+
+.moqa-usecase-row p {
+  font-size: 16px;
+}
+
+.moqa-usecases-footer {
+  font-size: 16px;
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-top: 2px solid gray;
+}
+
+#contact {
+  background-color: white;
+  font-size: 18px;
+}
+
+#contact form {
+  font-size: 14px;
+}
+
+.moqa-contact-title {
+  padding: 20px;
+}
+
+.moqa-div {
+  padding: 20px 50px;
+  background-color: white;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.moqa-div h1, .moqa-div h2, .moqa-div h3, .moqa-div h4{
+  text-align: center;
+  padding: 15px;
+}

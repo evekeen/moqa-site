@@ -5,7 +5,7 @@ $(function() {
 
 function updateSize() {
   var width = $(window).width();
-  var contentWidth = $('.moqa-header').width();
+  var contentWidth = $('.moqa-main-column').width();
   $('.moqa-nav-container').width(contentWidth);
   var all$ = $('#all');
   var row$ = $('.moqa-feature-commenting');

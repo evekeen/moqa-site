@@ -8,7 +8,7 @@ googleAnalytics = "UA-98095256-1"
 [menu]
 
 [[menu.main]]
-    name = "Behefits"
+    name = "Benefits"
     url  = "/"
     weight = 1
 

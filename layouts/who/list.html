@@ -22,8 +22,9 @@
       <!-- Ranges through content/post/*.md -->
       {{ range $index, $element := sort .Site.Data.who "weight"}}
       <div class="row moqa-usecase-row">
+        <div class="col-sm-0 col-md-1"></div>
         {{ if eq (mod $index 2) 1 }}
-        <div class="col-sm-6 col-md-8 moqa-usecase-text">
+        <div class="col-sm-6 col-md-6 moqa-usecase-text">
           <div>
             <p>{{ $element.text | markdownify }}</p>
           </div>
@@ -35,12 +36,13 @@
         <div class="col-sm-6 col-md-4 moqa-usecase-image">
           <img src="/img/who/{{ $element.name }}.png"/>
         </div>
-        <div class="col-sm-6 col-md-8 moqa-usecase-text">
+        <div class="col-sm-6 col-md-6 moqa-usecase-text">
           <div>
             <p>{{ $element.text | markdownify }}</p>
           </div>
         </div>
         {{ end }}
+        <div class="col-sm-0 col-md-1"></div>
       </div>
       {{ end }}
     </div>

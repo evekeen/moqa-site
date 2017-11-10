@@ -12,11 +12,6 @@ googleAnalytics = "UA-98095256-1"
     url  = "/"
     weight = 1
 
-#[[menu.main]]
-#    name = "Blog"
-#    url  = "/blog/"
-#    weight = 2
-
 [[menu.main]]
     name = "Use cases"
     identifier = "who"
@@ -29,11 +24,15 @@ googleAnalytics = "UA-98095256-1"
     url  = "/plans/"
     weight = 4
 
+[[menu.main]]
+    name = "Blog"
+    url  = "/blog/"
+    weight = 5
 
 [[menu.main]]
     name = "Contact"
     url  = "/contact/"
-    weight = 5
+    weight = 6
 
 [params]
     viewMorePostLink = "/blog/"

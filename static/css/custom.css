@@ -37,6 +37,26 @@
   text-align: center;
 }
 
+#post-content {
+  text-align: justify;
+}
+
+#post-content h1,
+#post-content h2,
+#post-content h3,
+#post-content h4 {
+  text-align: center;
+}
+
+.moqa-blog-post {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.moqa-blog-post img {
+  text-align: center;
+}
+
 body {
   background-color: #eee;
 }
@@ -190,7 +210,7 @@ a, a:hover, a:active, a:visited {
 }
 
 #contact {
-  background-color: white;
+  background-color: #f9f9f9;
   font-size: 18px;
 }
 
@@ -204,7 +224,7 @@ a, a:hover, a:active, a:visited {
 
 .moqa-div {
   padding: 20px 50px;
-  background-color: white;
+  background-color: #f9f9f9;
   font-size: 16px;
   text-align: justify;
 }
@@ -212,4 +232,13 @@ a, a:hover, a:active, a:visited {
 .moqa-div h1, .moqa-div h2, .moqa-div h3, .moqa-div h4{
   text-align: center;
   padding: 15px;
+}
+
+.moqa-blog {
+  background-color: #fff;
+}
+
+#content {
+  background-color: #f9f9f9;
+  padding: 20px 0;
 }

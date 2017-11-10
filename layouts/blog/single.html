@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+{{ partial "head.html" . }}
+
+<body>
+
+<div id="all" class="row">
+  <div class="hidden-xs col-sm-2">&nbsp;</div>
+  <div class="col-xs-12 col-sm-8 moqa-main-column">
+
+    <header>
+
+      {{ partial "nav.html" . }}
+
+    </header>
+
+    {{ partial "breadcrumbs.html" . }}
+
+    <section>
+      <div class="moqa-blog-post">
+        <div class="row">
+          <div class="hidden-xs col-sm-1">&nbsp;</div>
+          <div class="col-xs-12 col-sm-10" id="blog-listing-medium">
+
+          <!-- *** LEFT COLUMN *** -->
+
+          <p class="text-muted text-uppercase mb-small text-right">{{ if .Params.author }}By <a href="#">{{ .Params.author }}</a> | {{ end }}{{.Date.Format .Site.Params.date_format }}</p>
+
+          <div id="post-content">
+            {{ .Content }}
+          </div>
+          <!-- /#post-content -->
+          {{ if .Site.DisqusShortname }}
+          <div id="comments">
+            {{ template "_internal/disqus.html" . }}
+          </div>
+          {{ end }}
+
+          <!-- /#blog-post -->
+
+          <!-- *** LEFT COLUMN END *** -->
+
+          <!-- *** RIGHT COLUMN *** -->
+
+          <!--<div class="col-md-3">-->
+
+          <!-- *** MENUS AND WIDGETS *** -->
+
+          <!--{{ partial "sidebar.html" . }}-->
+
+          <!-- *** MENUS AND FILTERS END *** -->
+
+          <!--</div>-->
+          <!-- /.col-md-3 -->
+
+          <!-- *** RIGHT COLUMN END *** -->
+          </div>
+          <div class="hidden-xs col-sm-1">&nbsp;</div>
+        </div>
+          <!-- /.row -->
+      </div>
+
+    </section>
+    <!-- /#content -->
+
+    {{ partial "footer.html" . }}
+  </div>
+  <div class="hidden-xs col-sm-2">&nbsp;</div>
+</div>
+
+<!-- /#all -->
+
+{{ partial "scripts.html" . }}
+
+</body>
+</html>

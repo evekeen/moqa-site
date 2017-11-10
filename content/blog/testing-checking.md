@@ -40,7 +40,7 @@ I would like to share some more tips with you:
 
 * Testing status should be transparent for everybody in the team. So, your managers will not bother you with questions.
 
-Bunch of these problems can be easily resolved with **MoQA**, brand new, fast, simple and beautiful mobile solution for running your tests. It is available for **Android** and **iOs** and will help you to speed up testing. 
+Bunch of these problems can be easily resolved with **MoQA**, brand new, fast, simple and beautiful mobile solution for running your tests. It is available for [iOs](https://itunes.apple.com/us/app/moqa/id1228058085?mt=8) and [Android](https://play.google.com/store/apps/details?id=com.moqa&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1) and will help you to speed up testing. 
 
 3 things MoQA can help you with:
 

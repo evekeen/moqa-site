@@ -49,7 +49,7 @@
 }
 
 .moqa-blog-post {
-  background-color: #fff;
+  background-color: #f7f7f7;
   padding: 20px;
 }
 
@@ -210,7 +210,7 @@ a, a:hover, a:active, a:visited {
 }
 
 #contact {
-  background-color: #f9f9f9;
+  background-color: #f7f7f7;
   font-size: 18px;
 }
 
@@ -224,7 +224,7 @@ a, a:hover, a:active, a:visited {
 
 .moqa-div {
   padding: 20px 50px;
-  background-color: #f9f9f9;
+  background-color: #f7f7f7;
   font-size: 16px;
   text-align: justify;
 }
@@ -235,10 +235,10 @@ a, a:hover, a:active, a:visited {
 }
 
 .moqa-blog {
-  background-color: #fff;
+  background-color: #f7f7f7;
 }
 
 #content {
-  background-color: #f9f9f9;
+  background-color: #f7f7f7;
   padding: 20px 0;
 }

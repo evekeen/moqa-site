@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>moqa</title>
-    <link>http://moqa.mobi/</link>
-    <description>Recent content on moqa</description>
+    <title>Blog on moqa</title>
+    <link>http://moqa.mobi/blog/</link>
+    <description>Recent content in Blog on moqa</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2017 - 2016, Testhetics; all rights reserved.</copyright>
-    <lastBuildDate>Fri, 10 Nov 2017 00:29:10 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 22 Apr 2017 17:37:41 +0300</lastBuildDate>
     
-	<atom:link href="http://moqa.mobi/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://moqa.mobi/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -29,38 +29,6 @@ Did you see &amp;ldquo;Get Schwifty&amp;rdquo; episode of Rick and Morty cartoon
       
       <guid>http://moqa.mobi/blog/2017/10/28/testing-checking/</guid>
       <description>Save time on Checking - Do More QA There are a lot of discussions about difference between checking and testing; checking is something we can do using tools, automated tests, but testing - more general activity, we need a human mind here. And nowadays it became more and more important to be adaptive, think generally. Test engineer should think not about one particular feature, but about integration of this feature into the product.</description>
-    </item>
-    
-    <item>
-      <title>moqa</title>
-      <link>http://moqa.mobi/main/</link>
-      <pubDate>Sat, 22 Apr 2017 17:37:41 +0300</pubDate>
-      
-      <guid>http://moqa.mobi/main/</guid>
-      <description>Moqa gives your Test Team perspective over all your tests created in Structure.Testy plugin for JIRA.
-Your mobile buddy will help you to get tests done quickly. Do not need special monitor for test execution anymore! Run tests from your pocket.
-With Moqa you can:
- Run your tests quickly. Just slide it! Add Comments to you executions Check the progress of your team on the way.  
-Contact us</description>
-    </item>
-    
-    <item>
-      <title>Plans</title>
-      <link>http://moqa.mobi/plans/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://moqa.mobi/plans/</guid>
-      <description> Are you interested in our future plans? We can share it with you!  creating tests from the App push notifications want something else? Let us know!  </description>
-    </item>
-    
-    <item>
-      <title>We are here to help you</title>
-      <link>http://moqa.mobi/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://moqa.mobi/contact/</guid>
-      <description>Are you curious about something? Do you have some kind of problem with our products?
-Please feel free to contact us.</description>
     </item>
     
   </channel>

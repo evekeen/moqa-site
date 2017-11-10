@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 
 <head>
   <meta charset="utf-8">
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Who are our users?</title>
+  <title>testing vs checking</title>
   <meta name="author" content="" />
 
   
@@ -51,9 +51,9 @@
   <link rel="alternate" href="http://moqa.mobi/index.xml" type="application/rss+xml" title="moqa">
 
   
-  <meta property="og:title" content="Who are our users?" />
+  <meta property="og:title" content="testing vs checking" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="/who//" />
+  <meta property="og:url" content="/blog/2017/10/28/testing-checking//" />
   <meta property="og:image" content="img/logo.png" />
 
 </head>
@@ -66,6 +66,7 @@
   <div class="col-xs-12 col-sm-8 moqa-main-column">
 
     <header>
+
       <div class="navbar-affixed-top" data-spy="affix" data-offset-top="200">
 
   <div class="navbar navbar-default yamm" role="navigation" id="navbar">
@@ -73,9 +74,9 @@
     <div class="moqa-nav-container">
       <div class="navbar-header">
         <a class="navbar-brand home" href="http://moqa.mobi/">
-          <img src="http://moqa.mobi/img/logo.png" alt="Who are our users? logo" class="hidden-xs hidden-sm moqa-logo-nav">
-          <img src="http://moqa.mobi/img/logo-small.png" alt="Who are our users? logo" class="visible-xs visible-sm">
-          <span class="sr-only">Who are our users? - go to homepage</span>
+          <img src="http://moqa.mobi/img/logo.png" alt="testing vs checking logo" class="hidden-xs hidden-sm moqa-logo-nav">
+          <img src="http://moqa.mobi/img/logo-small.png" alt="testing vs checking logo" class="visible-xs visible-sm">
+          <span class="sr-only">testing vs checking - go to homepage</span>
         </a>
         <div class="navbar-buttons">
           <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -147,79 +148,110 @@
 
 
 
+
     </header>
+
     <div id="heading-breadcrumbs">
   <div class="row">
     <div class="col-md-12">
-      <h1>Who are our users?</h1>
+      <h1>testing vs checking</h1>
     </div>
   </div>
 </div>
 
 
-    <div class="moqa-usecases-title">
-      
+    <section>
+      <div class="moqa-blog-post">
+        <div class="row">
+          <div class="hidden-xs col-sm-1">&nbsp;</div>
+          <div class="col-xs-12 col-sm-10" id="blog-listing-medium">
 
-<h4 id="we-believe-our-fast-and-easy-to-use-application-can-help-different-people-including-our-personas">We believe our fast and easy-to-use application can help different people, including our personas.</h4>
+          
 
-<h4 id="let-me-introduce-them">Let me introduce them!</h4>
+          <p class="text-muted text-uppercase mb-small text-right">October 28, 2017</p>
 
-    </div>
+          <div id="post-content">
+            
 
-    <div class="moqa-usecases-list">
-      
-      
-      <div class="row moqa-usecase-row">
-        <div class="col-sm-0 col-md-1"></div>
-        
-        <div class="col-sm-6 col-md-4 moqa-usecase-image">
-          <img src="/img/who/mike.png"/>
-        </div>
-        <div class="col-sm-6 col-md-6 moqa-usecase-text">
-          <div>
-            <p>Mike is a Test Manager and he wants to know the status of testing immediately, sometimes even on meetings or customer calls. With Moqa he always knows the status and do not disturb the team with the same questions over and over again!</p>
+<h3 id="save-time-on-checking-do-more-qa">Save time on Checking - Do More QA</h3>
+
+<p>There are a lot of discussions about difference between checking and testing; checking is something we can do using tools, automated tests, but testing - more general activity, we need a human mind here. And nowadays it became more and more important to be adaptive, think generally. Test engineer should think not about one particular feature, but about integration of this feature into the product.</p>
+
+<p>I had one project, where we worked in Waterfall model, so QA team was involved on the last stage, testing activities were mostly checking: suddenly we had no time to think about feature itself (you know, everything should be done yesterday), just checked it according to the specification. So, mostly we spent time on trying to find the right excel file to set the status. As you can imagine, customers didn’t like the product.</p>
+
+<p>Then we analyzed if we can improve something here, we tried to understand if there are some activities we can skip or decrease. So, we spent time on tedious checking instead of doing testing and use our knowledge and creativity. I was curious where other teams spent time? I’ve asked several colleges and get following answers,ordered by popularity: documentation, communication, environment preparation, checking. Was it true for my team?</p>
+
+<ul>
+<li><p>Documentation.
+Definitely it is the first point in our list: we spend a lot of time preparing test cases, test plans, test reports. It is a tedious work, but are you sure someone even reads it? And it is extremely important to use good test management system. I know a guy, who even have a matrix with tool names and time ratio: when somebody asked to estimate testing activities, he asked back about software they used and multiply according to the matrix. He has 2 for excel :) . So, be careful with choosing the right tool, do not waste your time on configurations and pointless clicking</p></li>
+
+<li><p>Analysis &amp; communication.
+This is the most important part, especially in Agile teams: everybody should understand what and why we do, there is no comprehensive documentation. Since we worked in Waterfall, we had a lot of specs, but part of it was outdated. We wasn’t involved in planning and all questions were really “too late”</p></li>
+
+<li><p>Checking features and regression.
+Here we spent time not just on clicking buttons, but analysing and bugs localization. This part often can be partly automated on different test levels. For manual tests we can use checklists, so test engineer will have some freedom in decision, concentrate on product, not steps. It is important here where you store your tests, if it is easy to define a test plan, run tests,  and check progress. Our team spent too much time here, just because we had no test management system it was not easy to run tests, to create reports and it was a nightmare for managers to understand the progress.</p></li>
+
+<li><p>Something always goes wrong, especially with our “test karma”: fix missed in the build, CI moved to another server or something else :) We spent time on solving problems, we should admit it.</p></li>
+</ul>
+
+<p>I would like to share some more tips with you:</p>
+
+<ul>
+<li><p>Don&rsquo;t add detailed instructions if feature is not done yet. Use questions and checklists instead, save time on updating docs. It was one of the most time-consuming things in our project: we tried to create great tests from starts, but it is impossible.</p></li>
+
+<li><p>Write down all comments, right into your tests and tasks. Don’t miss details shared by your developers with you! All information can be useful: people can just told you something but forgot to update doc</p></li>
+
+<li><p>Use tools, it helps you to do some checks faster, save time for real testing instead of checking. There are a lot of different services and plugins available, for example: XSS Me firefox plugin for checking security, <a href="https://www.webpagetest.org">WebPageTest</a> for performance</p></li>
+
+<li><p>Choose the right tool for test management. Don’t waste your time on merging google docs or Excel files. <a href="http://www.testrail.net">Test Rail</a> is a good example, it is the most powerful and easy-to-use tool for your tests, helps you to store all tests in one place, share your progress with other during integration with issue tracking systems</p></li>
+
+<li><p>Decrease time you spent on test execution. It is important, it should be easy to run your tests, even on the lab.</p></li>
+
+<li><p>Testing status should be transparent for everybody in the team. So, your managers will not bother you with questions.</p></li>
+</ul>
+
+<p>Bunch of these problems can be easily resolved with <strong>MoQA</strong>, brand new, fast, simple and beautiful mobile solution for running your tests. It is available for <strong>Android</strong> and <strong>iOs</strong> and will help you to speed up testing.</p>
+
+<p>3 things MoQA can help you with:</p>
+
+<ul>
+<li>Test everywhere. In the hardware lab, on your developer computer, even during the boring meeting :)</li>
+<li>Test faster. Just swipe it! Test status will be set immediately</li>
+<li>Always know the real progress. Check it at any time!</li>
+</ul>
+
+<p>So, spent less time on checking and tedious work, more time on real QA with <strong>Test Rail</strong> and <strong>MoQA</strong>!</p>
+
           </div>
-        </div>
-        
-        <div class="col-sm-0 col-md-1"></div>
-      </div>
-      
-      <div class="row moqa-usecase-row">
-        <div class="col-sm-0 col-md-1"></div>
-        
-        <div class="col-sm-6 col-md-6 moqa-usecase-text">
-          <div>
-            <p>Kevin is a Hardware Test Engineer. He spends a lot of time in the lab doing tests. With Moqa, he can mark test as passed or failed right from his mobile phone, so he doesn’t need a paper or a laptop anymore.</p>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 moqa-usecase-image">
-          <img src="/img/who/kevin.png"/>
-        </div>
-        
-        <div class="col-sm-0 col-md-1"></div>
-      </div>
-      
-      <div class="row moqa-usecase-row">
-        <div class="col-sm-0 col-md-1"></div>
-        
-        <div class="col-sm-6 col-md-4 moqa-usecase-image">
-          <img src="/img/who/jim.png"/>
-        </div>
-        <div class="col-sm-6 col-md-6 moqa-usecase-text">
-          <div>
-            <p>Jim works as Software Development in Test. Now he is working on UI tests, however they are not so quick so sometimes he even sleeps on the workplace. Moqa helps him to know the status immediately, so he can go home and check if everything is OK.</p>
-          </div>
-        </div>
-        
-        <div class="col-sm-0 col-md-1"></div>
-      </div>
-      
-    </div>
+          
+          
 
-    <div class="moqa-usecases-footer">
-      <p>We want to get to know you better!</p>
-      <p>Tell us your moqa-story right <a href="/contact">now</a></p>
-    </div>
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+          
+
+          
+          </div>
+          <div class="hidden-xs col-sm-1">&nbsp;</div>
+        </div>
+          
+      </div>
+
+    </section>
+    
 
     <footer id="footer">
   <div class="row">
@@ -257,11 +289,10 @@
 
 
 
-
   </div>
   <div class="hidden-xs col-sm-2">&nbsp;</div>
-
 </div>
+
 
 
 

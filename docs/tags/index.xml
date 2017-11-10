@@ -7,16 +7,80 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2017 - 2016, Testhetics; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 28 Oct 2017 13:30:05 +0300</lastBuildDate>
     
 	<atom:link href="http://moqa.mobi/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Theme</title>
-      <link>http://moqa.mobi/tags/theme/</link>
-      <pubDate>Wed, 26 Apr 2017 13:50:46 +0200</pubDate>
+      <title>Best</title>
+      <link>http://moqa.mobi/tags/best/</link>
+      <pubDate>Sat, 28 Oct 2017 13:30:05 +0300</pubDate>
       
-      <guid>http://moqa.mobi/tags/theme/</guid>
+      <guid>http://moqa.mobi/tags/best/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Checking</title>
+      <link>http://moqa.mobi/tags/checking/</link>
+      <pubDate>Sat, 28 Oct 2017 13:30:05 +0300</pubDate>
+      
+      <guid>http://moqa.mobi/tags/checking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Management</title>
+      <link>http://moqa.mobi/tags/management/</link>
+      <pubDate>Fri, 10 Nov 2017 00:29:10 +0300</pubDate>
+      
+      <guid>http://moqa.mobi/tags/management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Moqa</title>
+      <link>http://moqa.mobi/tags/moqa/</link>
+      <pubDate>Fri, 10 Nov 2017 00:29:10 +0300</pubDate>
+      
+      <guid>http://moqa.mobi/tags/moqa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Practices</title>
+      <link>http://moqa.mobi/tags/practices/</link>
+      <pubDate>Sat, 28 Oct 2017 13:30:05 +0300</pubDate>
+      
+      <guid>http://moqa.mobi/tags/practices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Qa</title>
+      <link>http://moqa.mobi/tags/qa/</link>
+      <pubDate>Sat, 28 Oct 2017 13:30:05 +0300</pubDate>
+      
+      <guid>http://moqa.mobi/tags/qa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Testing</title>
+      <link>http://moqa.mobi/tags/testing/</link>
+      <pubDate>Fri, 10 Nov 2017 00:29:10 +0300</pubDate>
+      
+      <guid>http://moqa.mobi/tags/testing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Testrail</title>
+      <link>http://moqa.mobi/tags/testrail/</link>
+      <pubDate>Sat, 28 Oct 2017 13:30:05 +0300</pubDate>
+      
+      <guid>http://moqa.mobi/tags/testrail/</guid>
       <description></description>
     </item>
     

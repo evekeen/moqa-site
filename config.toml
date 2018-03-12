@@ -61,7 +61,7 @@ disqusShortname = "moqa-mobi"
     # - you're done. Happy mailing!
     #
     # Enable the contact form by entering your Formspree.io email
-    email = "moqamobi@gmail.com"
+    email = "info@moqa.mobi"
 
     about_us = "<p>An elegant mobile application for manual test executions and tracking overall testing status. Made by Testhetics with love.</p>"
     copyright = "Copyright (c) 2017 - 2016, Testhetics; all rights reserved."

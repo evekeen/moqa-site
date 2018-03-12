@@ -20,4 +20,4 @@ With Moqa you can:
 
 <a href="https://itunes.apple.com/us/app/moqa/id1228058085?mt=8" style="display:inline-block;overflow:hidden;background:url(//linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg) no-repeat;width:135px;height:40px;background-size:contain;" target="_blank"></a>
 
-<a href="mailto:moqamobi@gmail.com">Contact us</a>
+<a href="mailto:info@moqa.mobi">Contact us</a>
